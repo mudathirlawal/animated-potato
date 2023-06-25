@@ -13,8 +13,8 @@ p {
     align-items: center;
     gap: 140px;
     margin: 12px, 968px, 145px, 145px;
-    padding: 0px;
 }
+
 
 #logo-item {
     display: flex;
@@ -27,14 +27,20 @@ p {
 #services {
     color: var(--text-color-main-text, #141414);
     font-size: 18px;
-    font-family: Gilroy-Medium;
     width: 24px;
     height: 24px;
     flex-shrink: 0;
     margin-left: 76px;
 }
 
-.span-div {
+#carret {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-color: none;
+}
+
+.features {
     display: inline-block;
 }
 
@@ -104,3 +110,9 @@ ul {
     border: none;
     display: inline-block;
   }
+
+.right-side {
+    color: var(--primary-300-base, #0065FE);
+    font-size: 16px;
+    font-family: Gilroy-SemiBold;
+}
