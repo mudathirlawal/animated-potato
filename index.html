@@ -8,26 +8,27 @@
 
 <body>
     <section id="hero">
-        <div id="group1" class="div">
-            <header id="main-header" class="header">
-                <ul class="list nav">
-                    <li id="logo-item">
-                        <img src="./assets/Logo.svg" alt="Application logo" style="
-                        display: flex;
-                        width: 99px;
-                        height: 24px;
-                        flex-direction: column;
-                        justify-content: center;">
-                    </li>
-                    <li><a href="*" class="link">My URLs</a></li>
+        <header>
+            <div>
+                <img src="./assets/Logo.svg" alt="Application logo" style="
+                display: flex;
+                width: 99px;
+                height: 24px;
+                flex-direction: column;
+                justify-content: center;">
+            </div>
+
+            <div>
+                <ul>
                     <li>
                         <div class="dropdown navbar">
-                            <div onclick="" class="span-div">
-                                <span id="services">
-                                    Feature
-                                    <img src="./assets/chevron-down.svg" alt="Drop down icon" style="">
-                                </span>
+                            <div class="features">
+                                <span id="services">Feature</span>
+                                <button id="carret" class="btn" name="dropdown" type="button" value="dropdown-icon" onclick="">
+                                     <img src="./assets/chevron-down.svg" alt="Drop down icon" style="">
+                                </button>
                             </div>
+                            
                             <div id="dropdown" class="dropdown-content">
                                 <ul class="list">
                                     <li><a href="*" class="link"></a></li>
@@ -37,28 +38,29 @@
                             </div>
                         </div>
                     </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
                     <li><a href="*" class="navbar link">Pricing</a></li>
                     <li><a href="*" class="navbar link">Analytics</a></li>
-                    <li><a href="*" class=" navbar link">FAQs</a></li>
-                    <li>
-                        <button id="login" class="btn">Log in</button>
-                    </li>
-                    <li>
-                        <button id="subTrial" class="btn">Try for free</button>
-                    </li>
+                    <li><a href="*" class="navbar link">FAQs</a></li>
                 </ul>
-            </header>
+            </div>
 
-            <div id="" class=""> Optimize Your Online Experience with Our Advanced URL Shortening Solution</div>
-            <div id="" class="">Personalize your shortened URLs to align with your brand identity. Utilize custom
-                slugs, branded links, and domain customization options to reinforce your brand presence and enhance
-                user engagement.</div>
-            <div id="" class=""></div>
-        </div>
+            <div>
+            <button id="login" class="btn">Log in</button>
+                <button id="subTrial" class="btn">Try for free</button>
+            </div>  
+        </header>
 
-        <div id="group2" class="div"></div>
-        <div id="group3" class="div"></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </section>
+
+
 </body>
 
 </html>
