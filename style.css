@@ -8,3 +8,17 @@ body {
     font-family: Gilroy-Bold;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.item {}
+
