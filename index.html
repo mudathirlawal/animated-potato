@@ -8,23 +8,23 @@
 
 <body>
     <section id="hero">
-        <header>
-            <nav class="navbar">
-                <div>
-                    <img src="./assets/Logo.svg" alt="Application logo" style="
+        <header class="header-layout">
+            <div>
+                <img src="./assets/Logo.svg" alt="Application logo" style="
                     display: flex;
                     width: 99px;
                     height: 24px;
                     flex-direction: column;
                     justify-content: center;">
-                </div>
+            </div>
 
+            <nav class="navbar">
                 <div>
-                    <ul>
+                    <ul class="list">
                         <li>
-                            <div class="dropdown navbar">
+                            <div class="navbar dropdown">
                                 <div class="features">
-                                    <span id="services">Feature</span>
+                                    <span>Feature</span>
                                     <button id="carret" class="btn" name="dropdown" type="button" value="dropdown-icon"
                                         onclick="">
                                         <img src="./assets/chevron-down.svg" alt="Drop down icon" style="">
@@ -33,9 +33,9 @@
 
                                 <div id="dropdown" class="dropdown-content">
                                     <ul class="list">
-                                        <li><a href="#" class="link"></a></li>
-                                        <li><a href="#" class="link"></a></li>
-                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#" class="navbar link"></a></li>
+                                        <li><a href="#" class="navbar link"></a></li>
+                                        <li><a href="#" class="navbar link"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -50,12 +50,12 @@
                         <li><a href="#" class="navbar link">FAQs</a></li>
                     </ul>
                 </div>
-
-                <div>
-                    <button id="login" class="btn">Log in</button>
-                    <button id="subTrial" class="btn">Try for free</button>
-                </div>
             </nav>
+
+            <div>
+                <button id="login" class="btn">Log in</button>
+                <button id="subTrial" class="btn">Try for free</button>
+            </div>
         </header>
 
         <div></div>
